@@ -8,3 +8,8 @@ names = {"Deepanakr":"Values","Age":"42"}
 #     print(values)
 for keys in names.keys():
     print(keys)
+# we can also find out the items of Dictionary as follows
+
+
+for items in names.items():
+    print(items)
