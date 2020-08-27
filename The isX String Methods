@@ -1,0 +1,28 @@
+# is string method return a boolean that describe the nature of string.
+# some methods are mentioned below.
+
+isalpha() returns True if the string consists only of letters and is not blank.
+
+isalnum() returns True if the string consists only of letters and numbers
+and is not blank.
+
+isdecimal() returns True if the string consists only of numeric characters
+and is not blank
+
+isspace() returns True if the string consists only of spaces, tabs, and newlines and is not blank.
+
+istitle() returns True if the string consists only of words that begin with
+an uppercase letter followed by only lowercase letters.
+
+
+print("hello".isalpha())
+print(" ".isspace())
+print("hello12".isnumeric())
+print("123".isnumeric())
+# print(12.isnumeric()) #it will generate an error because it is as string method.
+
+
+True
+True
+False
+True
