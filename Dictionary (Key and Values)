@@ -13,3 +13,4 @@ for keys in names.keys():
 
 for items in names.items():
     print(items)
+# Notice this the value return by .items() is tuples of keya and values pairs.
