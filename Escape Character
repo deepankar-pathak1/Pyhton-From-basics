@@ -1,0 +1,17 @@
+# Escape character
+
+name = 'What is Your name\'s Boy' # \ is known as escape character
+names = 'Dee\'pan\'kar\' '
+print(names)
+
+what = "In this leasson\nYou will learn about\t\nProgramming"
+print(what)
+
+
+
+Escape character Prints as
+\' Single quote
+\" Double quote
+\t Tab
+\n Newline (line break)
+\\ Backslash
