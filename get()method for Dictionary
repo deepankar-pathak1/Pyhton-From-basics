@@ -1,0 +1,20 @@
+# get() method : - It takes two argument get(1,2) :- 1 it takes key value to retrive and 2 takes fallback values to return if there is no key exist of such name.
+#get() 
+# It will return the value of specified key if key is not found then it will return none or default value
+
+# syntax as :- dict.get(key,defaultValue)
+
+print(names.get("Deepanakr"))
+print(names.get("Deepu")) #Here we will get default value None
+print(names.get("Deepu","Value Not Found")) #Here we will get assign value as "Value Not Found"
+
+Values
+None
+Value Not Found
+
+
+# when we are not using this dict.get() method an error will occur beacause key value is not present in respective dictionary
+
+
+# Error will
+# print(names.key("Deepu"))
