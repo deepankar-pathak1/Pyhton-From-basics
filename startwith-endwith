@@ -1,0 +1,15 @@
+# Startwith and endwith concept clarify that if a string start with a particular and end with particular value.
+
+name = "Deepankar is Rich"
+print(name.startswith("D"))
+print(name.startswith("Deepankar"))
+print(name.startswith("Pathak"))
+print(name.endswith("R"))
+print(name.endswith("Rich"))
+
+
+True
+True
+False
+False
+True
