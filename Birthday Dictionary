@@ -1,0 +1,22 @@
+# Make a dictionary of birtday which have name and month present and when name and month is not present it may add up the values.
+# For this Project we have code.
+
+# birthday = {"Deepu":"Jan"}
+#
+# while True:
+#     print("Enter the name : ")
+#     name = input()
+#     if name in birthday:
+#         print(f"Your name is {name}")
+#         print("Your birth Month is",birthday[name])
+#     else:
+#         print("Your name is not present in list.")
+#
+#         print("You may enter your name")
+#         bday_name = input()
+#         print("Your Month is Not present in a list")
+#         bday_month = input()
+#         print(f"Your birthday name is {bday_name} and birhday month is {bday_month}")
+#         name = bday_name
+#         birthday[name] = bday_month
+#     print(f"Current Dictinoary is {birthday}")
