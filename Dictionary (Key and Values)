@@ -1,0 +1,10 @@
+# how we can findout the value of keys and values in a list.
+# Here we have created a dictionary with the name of names and we are going to apply for loop and finding the keys and values.
+
+# Code is
+
+names = {"Deepanakr":"Values","Age":"42"}
+# for values in names.values():
+#     print(values)
+for keys in names.keys():
+    print(keys)
