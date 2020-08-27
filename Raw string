@@ -1,0 +1,12 @@
+# A raw string completely ignores all escape characters and
+prints any backslash that appears in the string.
+
+name = 'Hey\'s what\'s up\t what are you doing\n'
+print(name)
+print(r'Hey\'s what\'s up\t what are you doing\n')
+
+Hey's what's up	 what are you doing
+
+Hey\'s what\'s up\t what are you doing\n
+
+# Because pyhton consider backslash part as a string not a escape character
