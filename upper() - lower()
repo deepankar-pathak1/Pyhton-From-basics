@@ -14,3 +14,9 @@ print(what.upper())
 #  print("You are great")
 # else:
 #  print("You are not Good")
+
+
+# Working with is.lower() and is.upper()
+#isupper() and islower() is used to chech the string is lower case or upper case and return a boolean value either True or False
+name = "DEEPANKAR"
+print(name.isupper())
