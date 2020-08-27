@@ -14,3 +14,34 @@ for keys in names.keys():
 for items in names.items():
     print(items)
 # Notice this the value return by .items() is tuples of keya and values pairs.
+
+
+print(names.keys())
+
+print(list(names.keys()))
+
+# Output is 
+
+dict_keys(['Deepanakr', 'Age'])
+
+['Deepanakr', 'Age']
+
+# we can iter keys and values pairs at a same time with the help of for loop as follows
+
+for keys,values in names.items():
+    print(f"Key is : {keys} and Value is : {values}")
+    
+    
+# as we have learned earlier to check the value in a list we uses a in and not in opreratot similarily we can use for dictionary as:-
+
+print("Deepankr" in names.values())
+print("Deepanakr" in names.keys()).
+
+# Output are
+
+False
+True
+
+print("Values" not in names.values())
+
+False
