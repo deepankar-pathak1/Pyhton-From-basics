@@ -1,0 +1,17 @@
+# Indexing and Slicing
+
+name = "Hello What is Your Name"
+#       0123456789...
+
+
+print(name[:2]) # We are doing slicing
+print(name[::2]) # Jumpig with two
+print(name[0:5:1]) #[Included:Notincluded:Jump]
+print(name[:1:-1]) # We are doing reverse indexing
+
+# Output is
+
+He
+HloWa sYu ae
+Hello
+emaN ruoY si tahW oll
