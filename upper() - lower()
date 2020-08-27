@@ -1,0 +1,16 @@
+# name = "deepanKar"
+# print(name.upper())
+# print(name)
+# capital = name.upper()
+# print(capital)
+
+what = "DEEpANkAR"
+print(what.upper())
+
+# print("How You are feeling..? : ")
+#
+# feeling = input()
+# if feeling.lower() == "great":
+#  print("You are great")
+# else:
+#  print("You are not Good")
