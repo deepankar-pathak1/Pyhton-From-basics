@@ -1,0 +1,21 @@
+#Removing white space with strip(),lstrip() and rstrip()
+
+#It is used to remove white space.
+
+spam = "    Hello.."
+spam_1 = "World    "
+
+print(spam)
+print(spam.lstrip())
+
+print(spam_1)
+print(spam_1.rstrip())
+
+spam_2 = "MyMynameMyDeepankarMyPathak"
+print(spam_2.strip("My"))
+
+    Hello..
+Hello..
+World    
+World
+nameMyDeepankarMyPathak
