@@ -1,0 +1,20 @@
+#in: - It check the value is present in a string or not.
+#Output is True if value is present and False if value is not present.
+
+#not in: - It check value is not present in the string.
+#If value is not present in the list it will give True and if present it will give False
+
+
+what = "Thats Great You are Going Rich Mr.Deepankar Pathak"
+
+print("Rich" in what)
+print("Deepankar" in what)
+print("why" not in what)
+print("Thats" not in what)
+
+# Output is
+
+True
+True
+True
+False
