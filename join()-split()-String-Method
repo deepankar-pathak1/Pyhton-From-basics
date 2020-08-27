@@ -1,0 +1,47 @@
+name = ["Boy","How","Are","You"]
+
+print(type(name))
+print(' '.join(name))
+print(type(' '.join(name)))
+
+print(' Rich '.join(name))
+
+# One thing to note about join() is called on a string value and taken as a list value.
+
+<class 'list'>
+Boy How Are You
+<class 'str'>
+Boy Rich How Rich Are Rich You.
+
+
+
+# split() work opposite as join.
+# its called on a string value and return a list value.
+
+name_1 = "Hello Forbes list is waiting for Your name"
+print(type(name_1))
+print(name_1.split())
+print(name_1.split(" "))
+print(name_1.split(","))
+print(type(name_1.split()))
+
+<class 'str'>
+['Hello', 'Forbes', 'list', 'is', 'waiting', 'for', 'Your', 'name']
+['Hello', 'Forbes', 'list', 'is', 'waiting', 'for', 'Your', 'name']
+['Hello Forbes list is waiting for Your name']
+<class 'list'>
+
+#The common use of split() is to split multiple string into new line character.
+
+
+na_me = """
+It is truth
+that 
+to
+become 
+Succesfull person
+some time is required
+
+        """
+
+print(na_me.split())
