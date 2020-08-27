@@ -26,3 +26,26 @@ True
 True
 False
 True
+
+
+
+while True:
+ age = input("Enter Your Age : ")
+ if age.isnumeric():
+  break
+ print("Please Provide age in Integer..:)")
+
+while True:
+ name = input("What is Your Name : ")
+ if name.isalnum():
+  break
+ print("Hy You Please Write Proper Name :)")
+print(f"Your age is {age} and Your Name is {name}")
+
+
+Please Provide age in Integer..:)
+Enter Your Age : 24
+What is Your Name : Dee0.23
+Hy You Please Write Proper Name :)
+What is Your Name : Deepankar
+Your age is 24 and Your Name is Deepankar
