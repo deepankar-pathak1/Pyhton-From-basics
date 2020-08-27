@@ -1,0 +1,16 @@
+
+# setdefault()
+
+# setdefault() takes two arguments,first is that key and second is values.
+# If no such key value is present in a dictionary then it will add this element, otherwise it will return the key value as they are present.
+
+names = {"Deepankar":"Pathak"}
+print(names.setdefault("Colour","White"))
+# Now we again assign the same name for key
+print(names.setdefault("Colour","Black"))
+# It will not change value because key already exist
+
+#output
+
+White
+White
