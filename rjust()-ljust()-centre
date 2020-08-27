@@ -1,0 +1,16 @@
+#rjust(),ljust(),center
+
+#rjust(): - rjust() is called right justify
+
+name_s = "hello"
+print(name_s.rjust(10)) # it is creating 5 spaces from right,as hello is 5 character
+print(name_s.rjust(10,"*"))
+print(name_s.ljust(10,"*"))
+print(name_s.center(15,"*"))
+print("World".center(25,"="))
+
+     hello
+*****hello
+hello*****
+*****hello*****
+==========World==========
