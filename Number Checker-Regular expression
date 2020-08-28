@@ -48,3 +48,41 @@ print("Please Give Number in Correct format (***-***-****)")
 text = input("Number is : ")
 # print("Enter Number",numberCheck("415-555-4242"))
 # print(numberCheck('415-555-4242'))
+
+
+
+
+
+
+
+
+
+
+# Regular expression
+# regular expression in short is called regexes are descriptions for a pattern of a text
+# For example, a \d in a regex stands for a digit character—
+# that is, any single numeral 0 to 9.
+# regular expression can be more complex but it will solve various problem
+# adding a 3 in curly brackets ({3}) after a pattern is like saying,
+# “Match this
+# pattern three times.” So the slightly shorter regex \d{3}-\d{3}-\d{4} also
+# matches the correct phone number format.
+# Remember that \d means “a digit
+# character” and
+# \d\d\d-\d\d\d-\d\d\d\d is the regular expression for the correct phone number pattern.)
+
+# Creating regex objects
+# A Regex object’s search() method searches the string it is passed for any
+# matches to the regex.
+#  The search() method will return None if the regex pattern is not found in the string.
+#  If the pattern is found, the search() method returns a Match object.
+#  Match objects have a group() method that will return the actual matched text from the searched string
+
+
+
+
+import re
+
+phone_number = re.compile(r'\d\d\d-\d\d\d-\d\d\d')
+mo_2 = phone_number.search('Number is 222-222-222')
+print("Number Found is : " + mo_2.group())
