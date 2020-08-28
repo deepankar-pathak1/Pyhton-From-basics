@@ -99,3 +99,35 @@ raw string.)
 This returns a Match object.
 4. Call the Match object’s group() method to return a string of the actual
 matched text.
+
+
+
+# Say you want to separate the area code from the rest of the phone number.
+# Adding parentheses will create groups in the regex: (\d\d\d)-(\d\d\d-\d\d\d\d).
+# we can easily seperate what we want from phone number as with the help of parentheses.
+# Then you can use the group() match object method to grab the matching text from just one group.
+
+
+
+contact_number = re.compile(r'(\d\d\d)-(\d\d\d\d)-(\d\d\d\d)')
+number = input("Please insert number in this order : ***-****-**** : ")
+
+
+
+mo_mo = contact_number.search(number)
+print("Result is : " + mo_mo.group(0))
+print("First 3 number is : " + mo_mo.group(1))
+print("Next 4 Number is : " + mo_mo.group(2))
+print("Next 4 Number is : " + mo_mo.group(3))
+
+
+
+Output is : -
+
+
+
+Please insert number in this order : ***-****-**** : 989-9898-9898
+Result is : 989-9898-9898
+First 3 number is : 989
+Next 4 Number is : 9898
+Next 4 Number is : 9898
