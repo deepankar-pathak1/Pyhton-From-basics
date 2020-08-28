@@ -1,0 +1,35 @@
+# Matching Multiple groups with pipe
+# The | character is called a pipe.
+# You can use it anywhere you want to match one of many expressions.
+# For example, the regular expression r'Batman|Tina Fey' will match either 'Batman' or 'Tina Fey'.
+# When both Batman and Tina Fey occur in the searched string, the first
+# occurrence of matching text will be returned as the Match object.
+
+work_pipe = re.compile(r'Pathak|Deepankar|Pathak')
+
+mo_1 = work_pipe.search("Deepankar and Pathak")
+print(mo_1.group())
+
+Deepankar
+
+
+
+
+# You can also use the pipe to match one of several patterns as part of your regex.
+# For example, say you wanted to match any of the strings 'Batman','Batmobile', 'Batcopter', and 'Batbat'.
+# Since all these strings start with Bat, it would be nice if you could specify that prefix only once.
+# This can be done with parentheses.
+
+batReg = re.compile(r'Bat(man|mobile|copter|bat)')
+mo_me = batReg.search('Batman') #Dont use batReg.search("Batman") it will lead to error
+print(mo_me.group())
+
+
+
+Batman
+
+
+
+# If you need to match an actual pipe character, escape it with a backslash, like \|
+
+
