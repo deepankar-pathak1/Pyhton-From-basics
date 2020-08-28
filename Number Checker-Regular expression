@@ -131,3 +131,23 @@ Result is : 989-9898-9898
 First 3 number is : 989
 Next 4 Number is : 9898
 Next 4 Number is : 9898
+
+
+
+
+# # If you would like to retrieve all the groups at once, use the groups() method—note the plural form for the name.
+# print(mo_mo.groups())
+# startwith,midlevel,endwithh = mo_mo.groups()
+# print(startwith)
+# print(midlevel)
+# print(endwithh)
+# Since mo.groups() returns a tuple of multiple values,
+# you can use the multiple-assignment trick to assign each value to a separate variable,
+# as here with the help of groups it will assign values as startwith will assign to first value and so on process will go on..
+
+
+('999', '9999', '8888')
+999
+9999
+8888
+
