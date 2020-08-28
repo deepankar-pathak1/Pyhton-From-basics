@@ -1,0 +1,42 @@
+# tuple
+# tuple is immutable it means it cannot be changed whereas
+# list is mutable which can be chaged
+name = ("deepankar",1)
+print(name)
+print(type(name))
+t = ('Deepnkar')
+t_1 = ("Deepankar",)
+#when we have one element it is important to have (), at last.
+# But when we have more than one element it is comfortable to not use (,) .
+
+print(type(t))
+print(type(t_1))
+
+# we can do same indexing as we do in list
+print(name[1])
+
+names_1 = ("deepankar",("Ramesh","dinesh","suresh"))
+print(names_1[1]) # as indexing goes (0,1..)
+print(names_1[1][1])
+
+#we can do slicing of a tuple similarily as we have done of a list
+numbers = (1,2,3,4,5,6,7,8)
+print(numbers[1:4])
+print(numbers[7:0:-1])
+
+# tuples are immutable :- we cannt change them.
+numbers[2] = 8
+print(numbers)
+
+('deepankar', 1)
+<class 'tuple'>
+<class 'str'>
+<class 'tuple'>
+1
+('Ramesh', 'dinesh', 'suresh')
+dinesh
+(2, 3, 4)
+(8, 7, 6, 5, 4, 3, 2)
+
+
+TypeError: 'tuple' object does not support item assignment
